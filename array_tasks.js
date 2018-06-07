@@ -45,10 +45,10 @@ var arrayTasks = {
 // 	var sorting_set = new Set([]);
 // 	for (var i = 0; i < sorting_arr.length - 1; i++) {
 // 	    if (sorting_arr[i + 1] == sorting_arr[i]) {
-// 	        results.add(sorted_arr[i]);
+// 	        sorting_set.add(sorting_arr[i]);
 // 	    }
 // 	}
-// 	var results = Array.from(results);
+// 	var results = Array.from(sorting_set);
 // 	return results;
 // },
 
